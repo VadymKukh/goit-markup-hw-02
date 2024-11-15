@@ -1,15 +1,21 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+ul,
+ol {
+  list-style-type: none;
 }
 
 .header-studio,
 .header-portfolio,
 .header-contacts {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -24,9 +30,6 @@ body {
 
 .address-header li {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
   text-decoration: none;
@@ -73,7 +76,6 @@ body {
 
 .main-button {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
@@ -97,9 +99,6 @@ body {
 
 .header-discr li p {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -123,17 +122,28 @@ body {
 
 .our-team-header ul li p {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
 }
 
 .footer-discr {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.header-our-portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.port-sect h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
