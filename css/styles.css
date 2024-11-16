@@ -103,25 +103,19 @@ ol {
 .our-team-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
-.our-team-header ul li h3 {
+.section-3-main .section-3-ul .section-2-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
-}
-
-.our-team-header ul li p {
-  font-weight: 400;
-  text-align: center;
-  color: #434455;
 }
 
 .footer-discr {
@@ -156,4 +150,12 @@ ol {
 
 .section-1-main {
   background-color: #2e2f42;
+}
+
+.section-3-main {
+  background-color: #f4f4fd;
+}
+
+.section-3-ul {
+  background-color: #ffffff;
 }
