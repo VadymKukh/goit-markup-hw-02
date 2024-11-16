@@ -24,6 +24,10 @@ ol {
   color: #404bbf;
 }
 
+.address-header {
+  font-style: normal;
+}
+
 .address-header .address-list-item .adress-link {
   font-style: normal;
   font-weight: 400;
@@ -53,7 +57,7 @@ ol {
 }
 
 .web-logo {
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 
 .web-logo:hover,
@@ -82,8 +86,11 @@ ol {
   cursor: pointer;
 }
 
-.main-button:hover,
-.main-button:focus .main-button:active {
+.main-button:hover {
+  background-color: #404bbf;
+}
+
+.main-button:focus {
   background-color: #404bbf;
 }
 
@@ -126,7 +133,7 @@ ol {
   color: #f4f4fd;
 }
 
-.header-our-portfolio {
+.section-4-full .header-our-portfolio {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
