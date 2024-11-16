@@ -1,10 +1,11 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 
 ul,
@@ -25,29 +26,29 @@ ol {
 .header-portfolio:focus,
 .header-contacts:hover,
 .header-contacts:focus {
-  color: #ed0707;
+  color: #404bbf;
 }
 
-.address-header li {
+.adress-header {
+  font-style: normal;
   font-weight: 400;
   color: #434455;
-  font-style: normal;
   text-decoration: none;
 }
 
-.address-header li:hover,
-.address-header li:focus {
-  color: #ed0707;
+.address-header .address-list-item:hover,
+.address-header .address-list-item:focus {
+  color: #404bbf;
 }
 
 .logo-full {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
   text-decoration: none;
 }
 
@@ -57,7 +58,7 @@ ol {
 }
 
 .web-logo {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .web-logo:hover,
@@ -68,15 +69,17 @@ ol {
 .main-header {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
 .main-button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   line-height: 1.5;
+  font-size: 16px;
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
@@ -86,20 +89,15 @@ ol {
 
 .main-button:hover,
 .main-button:focus .main-button:active {
-  color: #e21616;
+  color: #404bbf;
 }
 
-.header-discr li h3 {
+.header-discr .section-2-list .section-2-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.header-discr li p {
-  font-weight: 400;
-  color: #434455;
 }
 
 .our-team-header {
@@ -134,16 +132,28 @@ ol {
 .header-our-portfolio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
-.port-sect h3 {
+.header-our-portfolio .port-sect .secton-4-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.header-our-portfolio .port-sect .section-4-p {
+  color: #434455;
+}
+.footer-all {
+  background-color: #2e2f42;
+}
+
+.section-1-main {
+  background-color: #2e2f42;
 }
