@@ -98,7 +98,7 @@ ol {
   background-color: #404bbf;
 }
 
-.section-2-main .header-discr .section-2-list .section-2-h3 {
+.section-2-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -124,7 +124,7 @@ ol {
   color: #2e2f42;
 }
 
-.section-3-main .section-3-ul .section-3-li .section-2-h3 {
+.section-3-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -132,12 +132,20 @@ ol {
   color: #2e2f42;
 }
 
-.section-3-main .section-3-ul .section-3-li {
-  background-color: #ffffff;
+.section-3-main {
+  background-color: #f4f4fd;
 }
 
-.section-3-main .section-3-ul .section-3-li .section-3-p {
+.section-3-p {
+  color: #434455;
   font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.section-3-ul {
+  background-color: #ffffff;
 }
 
 .footer-discr {
@@ -155,7 +163,7 @@ ol {
   text-transform: capitalize;
 }
 
-.section-4-full .port-sect .section-4-li .secton-4-h3 {
+.secton-4-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -163,8 +171,12 @@ ol {
   color: #2e2f42;
 }
 
-.section-4-full .port-sect .section-4-li .section-4-p {
+.section-4-p {
   color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.02em;
 }
 .footer-all {
   background-color: #2e2f42;
