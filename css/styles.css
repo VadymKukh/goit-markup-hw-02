@@ -13,31 +13,26 @@ ol {
   list-style-type: none;
 }
 
-.header-studio,
-.header-portfolio,
-.header-contacts {
+.header-nav-list {
   font-weight: 500;
   text-decoration: none;
+  color: #2e2f42;
 }
 
-.header-studio:hover,
-.header-studio:focus,
-.header-portfolio:hover,
-.header-portfolio:focus,
-.header-contacts:hover,
-.header-contacts:focus {
+.header-nav-list:hover,
+.header-nav-list:focus {
   color: #404bbf;
 }
 
-.adress-header {
+.address-header .address-list-item .adress-link {
   font-style: normal;
   font-weight: 400;
   color: #434455;
   text-decoration: none;
 }
 
-.address-header .address-list-item:hover,
-.address-header .address-list-item:focus {
+.address-header .address-list-item .adress-link:hover,
+.address-header .address-list-item .adress-link:focus {
   color: #404bbf;
 }
 
@@ -58,7 +53,7 @@ ol {
 }
 
 .web-logo {
-  color: #f4f4fd;
+  color: #2e2f42;
 }
 
 .web-logo:hover,
@@ -89,7 +84,7 @@ ol {
 
 .main-button:hover,
 .main-button:focus .main-button:active {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .header-discr .section-2-list .section-2-h3 {
@@ -118,6 +113,14 @@ ol {
   color: #2e2f42;
 }
 
+.section-3-main .section-3-ul {
+  background-color: #ffffff;
+}
+
+.section-3-main .section-3-ul .section-3-p {
+  font-size: 16px;
+}
+
 .footer-discr {
   font-weight: 400;
   color: #f4f4fd;
@@ -133,7 +136,7 @@ ol {
   text-transform: capitalize;
 }
 
-.header-our-portfolio .port-sect .secton-4-h3 {
+.section-4-full .port-sect .secton-4-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -141,7 +144,7 @@ ol {
   color: #2e2f42;
 }
 
-.header-our-portfolio .port-sect .section-4-p {
+.section-4-full .port-sect .section-4-p {
   color: #434455;
 }
 .footer-all {
