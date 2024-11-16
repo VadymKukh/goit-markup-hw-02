@@ -60,6 +60,10 @@ ol {
   color: #f4f4fd;
 }
 
+.web-logo-header {
+  color: #2e2f42;
+}
+
 .web-logo:hover,
 .web-logo:focus {
   color: #ed0707;
@@ -94,12 +98,20 @@ ol {
   background-color: #404bbf;
 }
 
-.header-discr .section-2-list .section-2-h3 {
+.section-2-main .header-discr .section-2-list .section-2-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.section-2-p {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
 .our-team-header {
@@ -112,7 +124,7 @@ ol {
   color: #2e2f42;
 }
 
-.section-3-main .section-3-ul .section-2-h3 {
+.section-3-main .section-3-ul .section-3-li .section-2-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -120,11 +132,11 @@ ol {
   color: #2e2f42;
 }
 
-.section-3-main .section-3-ul {
+.section-3-main .section-3-ul .section-3-li {
   background-color: #ffffff;
 }
 
-.section-3-main .section-3-ul .section-3-p {
+.section-3-main .section-3-ul .section-3-li .section-3-p {
   font-size: 16px;
 }
 
@@ -143,7 +155,7 @@ ol {
   text-transform: capitalize;
 }
 
-.section-4-full .port-sect .secton-4-h3 {
+.section-4-full .port-sect .section-4-li .secton-4-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -151,7 +163,7 @@ ol {
   color: #2e2f42;
 }
 
-.section-4-full .port-sect .section-4-p {
+.section-4-full .port-sect .section-4-li .section-4-p {
   color: #434455;
 }
 .footer-all {
