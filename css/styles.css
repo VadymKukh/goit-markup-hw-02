@@ -98,7 +98,7 @@ ol {
   background-color: #404bbf;
 }
 
-.section-2-h3 {
+.studio-discr {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -106,7 +106,7 @@ ol {
   color: #2e2f42;
 }
 
-.section-2-p {
+.studio-abzac {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -124,7 +124,7 @@ ol {
   color: #2e2f42;
 }
 
-.section-3-h3 {
+.low-section-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -132,11 +132,7 @@ ol {
   color: #2e2f42;
 }
 
-.section-3-main {
-  background-color: #f4f4fd;
-}
-
-.section-3-p {
+.our-team-abzac {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -144,16 +140,12 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.section-3-ul {
-  background-color: #ffffff;
-}
-
 .footer-discr {
   font-weight: 400;
   color: #f4f4fd;
 }
 
-.section-4-full .header-our-portfolio {
+.header-our-portfolio {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -163,15 +155,7 @@ ol {
   text-transform: capitalize;
 }
 
-.secton-4-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.section-4-p {
+.portfolio-abzac {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -182,14 +166,14 @@ ol {
   background-color: #2e2f42;
 }
 
-.section-1-main {
+.section-main-title {
   background-color: #2e2f42;
 }
 
-.section-3-main {
+.section-our-team {
   background-color: #f4f4fd;
 }
 
-.section-3-ul {
+.our-tean-list {
   background-color: #ffffff;
 }
